@@ -1,0 +1,178 @@
+import 'package:flutter_ui_twitter_space/core/enums/mic_status_enum.dart';
+
+import '../models/user_model.dart';
+
+class UserData {
+  static List<User> getUsers() {
+    return const [
+      User(
+        uid: '5',
+        name: 'Viktor',
+        role: 'Host',
+        img: '5',
+        micStatus: MicStatus.speaking,
+      ),
+      User(
+        uid: '9',
+        name: 'Jayde',
+        role: 'Co-host',
+        img: '9',
+        micStatus: MicStatus.muted,
+      ),
+      User(
+        uid: '16',
+        name: 'Isabel',
+        role: 'Co-host',
+        img: '16',
+        micStatus: MicStatus.muted,
+      ),
+      User(
+        uid: '17',
+        name: 'Zofia',
+        role: 'Speaker',
+        img: '17',
+        micStatus: MicStatus.muted,
+      ),
+      User(
+        uid: '19',
+        name: 'Hazel',
+        role: 'Speaker',
+        img: '19',
+        micStatus: MicStatus.speaking,
+      ),
+      User(
+        uid: '26',
+        name: 'Max',
+        role: 'Listener',
+        img: '26',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '28',
+        name: 'Ava',
+        role: 'Listener',
+        img: '28',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '33',
+        name: 'Micheal',
+        role: 'Listener',
+        img: '33',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '34',
+        name: 'Lisa',
+        role: 'Listener',
+        img: '34',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '35',
+        name: 'Aron',
+        role: 'Listener',
+        img: '35',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '37',
+        name: 'Ioan',
+        role: 'Listener',
+        img: '37',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '45',
+        name: 'Lee',
+        role: 'Listener',
+        img: '45',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '48',
+        name: 'Mekhi',
+        role: 'Listener',
+        img: '48',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '56',
+        name: 'Jada',
+        role: 'Listener',
+        img: '56',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '65',
+        name: 'Usaamah',
+        role: 'Listener',
+        img: '65',
+        micStatus: MicStatus.none,
+      ),
+      User(
+        uid: '67',
+        name: 'Davina',
+        role: 'Listener',
+        img: '67',
+        micStatus: MicStatus.none,
+      ),
+      // User(
+      //   uid: '68',
+      //   name: 'Hamid',
+      //   role: 'Listener',
+      //   img: '68',
+      //   micStatus: MicStatus.none,
+      // ),
+      // User(
+      //   uid: '69',
+      //   name: 'Radhika',
+      //   role: 'Listener',
+      //   img: '69',
+      //   micStatus: MicStatus.none,
+      // ),
+      // User(
+      //   uid: '71',
+      //   name: 'Brittany',
+      //   role: 'Listener',
+      //   img: '71',
+      //   micStatus: MicStatus.none,
+      // ),
+      // User(
+      //   uid: '77',
+      //   name: 'Yassin',
+      //   role: 'Listener',
+      //   img: '77',
+      //   micStatus: MicStatus.none,
+      // ),
+      // User(
+      //   uid: '82',
+      //   name: 'Erik',
+      //   role: 'Listener',
+      //   img: '82',
+      //   micStatus: MicStatus.none,
+      // ),
+      // User(
+      //   uid: '85',
+      //   name: 'Musab',
+      //   role: 'Listener',
+      //   img: '85',
+      //   micStatus: MicStatus.none,
+      // ),
+      // User(
+      //   uid: '90',
+      //   name: 'Kaci',
+      //   role: 'Listener',
+      //   img: '90',
+      //   micStatus: MicStatus.none,
+      // ),
+      // User(
+      //   uid: '93',
+      //   name: 'Harvey',
+      //   role: 'Listener',
+      //   img: '93',
+      //   micStatus: MicStatus.none,
+      // ),
+    ];
+  }
+}
