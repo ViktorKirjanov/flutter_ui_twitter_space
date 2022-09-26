@@ -15,7 +15,8 @@ class TwitterSpaceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Twitter Spaces',
+      debugShowCheckedModeBanner: false,
+      title: 'Twitter Space',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
