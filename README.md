@@ -6,6 +6,6 @@
 - Speak effect
 
 
-<img src="twitter-space.png" width = 300>
+<img src="twitter_space.png" width = 300>
 
 
