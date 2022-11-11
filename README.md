@@ -6,6 +6,8 @@
 - Speak effect
 
 
-<img src="twitter_space.png" width = 300>
+ | Screenshot| GIF |
+ |-----------|-----------|
+ |<img src="twitter_space.png" width = 300>|<img src="twitter_space.gif" width="300"> |
 
 
